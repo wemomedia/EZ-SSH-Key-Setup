@@ -1,9 +1,13 @@
 #!/bin/sh
 
-# Shell script to install your public key on a remote machine
-# Takes the remote machine name as an argument.
-# Obviously, the remote machine must accept password authentication,
-# or one of the other keys in your ssh-agent, for this to work.
+# This script will make creating an SSH key and adding it to the server you want to communicate with super simple.
+# We've reduced it to one command
+# Download the code
+# Run ./install.sh
+# Now you can run "sshkeysetup" command from your terminal and follow the instructions
+# After you do this, you'll be able to do this:
+# ssh yourname@servername (no password required and it will be super-secure due to use of of SSH keys)
+# Boom bitch!
 
 ID_FILE="${HOME}/.ssh/id_rsa.pub"
 
