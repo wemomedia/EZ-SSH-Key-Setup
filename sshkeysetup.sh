@@ -7,7 +7,7 @@
 # Now you can run "sshkeysetup" command from your terminal and follow the instructions
 # After you do this, you'll be able to do this:
 # ssh yourname@servername (no password required and it will be super-secure due to use of of SSH keys)
-# Boom bitch!
+# Boom bitch! Enjoy from @djabatt @richardgirges
 
 ID_FILE="${HOME}/.ssh/id_rsa.pub"
 
